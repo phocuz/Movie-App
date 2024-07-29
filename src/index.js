@@ -2,16 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import StarRating from './StarRating';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>
+  </React.Fragment>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// function Test(){
+// //   const[movieRating,setMovieRating]= useState(0);
+  // <StarRating  maxRating={5} color="#fcc419" size={30} messages={['Terrible',"bad","okay","Good","amazing"]}/>
+  // <StarRating  maxRating={7} color="red" size={33} className="test" />
+  // <StarRating  maxRating={10} color="green" size={36} defaultRating={3}/>
+
+  // <Test />
+// //   return(
+// //     <div>
+// //       {/* <StarRating color="blue" maxRating={13} size={39}  onSetRating={setMovieRating}/>
+// //       <p>This movie war rated {movieRating} stars</p> */}
+// //     </div>
+// //   )
+// // }
+
